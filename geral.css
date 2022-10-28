@@ -3,10 +3,30 @@
     width: 200px;
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
 }
 .calculadora input {
     background: rgb(59, 54, 54);
     color: rgb(140, 200, 202);
     padding: 5px;
     border-radius: 5px;
+}
+#spTotal {
+    background: black;
+    color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.calculadora button {
+    background: rgb(28, 28, 83);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.calculadora button:hover{
+    background: rgb(156, 156, 226);
+    color: rgb(250, 3, 3);
+    cursor: pointer;
 }
